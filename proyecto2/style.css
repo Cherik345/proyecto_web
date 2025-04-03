@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Noto Sans Gunjala Gondi", sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    
+.header{
+    background-color: #278783;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    
+}
+
+.logo .img {
+    height: 10px;
+    width: auto;
+}
+
+.nav-link{
+    list-style: none;
+ }
+.nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+ }
+.nav-link li:hover{
+    transform: scale(1.2);
+ }
+
+.nav-link a{
+    font-size: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+.nav-link li a:hover{
+    color: #ceb290;
+ }
+.btn button{
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #f8eee1;
+    border:  none;
+    transition: all 0.3 ease 0s;
+    border-radius: 50px;
+ }
+.btn button:hover{
+    background: #f8eee1;
+    transform: scale(1.1);
+    color: #278783;
+
+ }
+
+.pie{
+   display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background-color: #f8eee1;
+}
+}
+
+.footer{
+   position: relative;
+   width: 100%;
+   background: #ceb290;
+   min-height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.menu{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+   margin: 10px 0;
+   flex-wrap: nowrap;
+}
+.menu-elementos{
+   list-style: none;
+}
+.menu-iconos{
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   display: inline-block;
+   text-decoration: none;
+   margin: 5px 10px;
+}
+.menu-iconos:hover{
+   color: #278783;
+   transform: scale(1.1);
+}
